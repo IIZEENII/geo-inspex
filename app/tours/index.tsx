@@ -1,5 +1,5 @@
 import { Text } from "react-native";
 
-export default function Settings() {
+export default function Tours() {
     return <Text>Tours</Text>
 }
