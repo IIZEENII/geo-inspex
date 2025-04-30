@@ -36,7 +36,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="tours"
+        name="tours/index"
+        options={{
+          title: "Home",
+          tabBarItemStyle: { display: 'none' },
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="house.fill" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="tours/add"
         options={{
           title: "Home",
           tabBarItemStyle: { display: 'none' },

@@ -61,7 +61,7 @@ export default function RootLayout() {
                       onChangeText={() => {}}
                     />
                     <Feather  name="calendar" size={24} color="#777" />
-                    <Feather onPress={() => router.push('/(tabs)/tours')}  name="plus" size={24} color="#777" />
+                    <Feather onPress={() => router.push('/(tabs)/tours/add')}  name="plus" size={24} color="#777" />
                   </View>
                 );
               },
